@@ -4,7 +4,7 @@ let currentChapter = "reveil";
 let currentDialog = 0;
 let canPlayAudio = true;
 let time = 0;
-const sound = new Audio("https://ex.smnarnold.com/ldr/chapter.mp4");
+const sound = new Audio("https://pub-85731fb31eb14eecb6f8ad043e5ebde4.r2.dev/live-die-repeat/chapter.mp4");
 
 const dom = {
   subtitle: document.querySelector('.subtitle'),
@@ -77,7 +77,7 @@ const chaptersObj = {
       },
       {
         text: "Un aéronef dans l'angle mort de Kimmel menace de s'effondrer sur lui.",
-        img: "kimmel-danger.jpg", 
+        img: "kimmel-danger.webp", 
         options: [
           {
             text: "Le laisser mourir",
@@ -100,7 +100,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "Vous avez sauvé Kimmel. Cependant, l'aéronef s'écrase sur vous.",
-        img: "sauver-kimmel.jpg",
+        img: "sauver-kimmel.webp",
         options: [
           {
             text: "Recommencer",
@@ -115,7 +115,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "Kimmel meurt écrasé.",
-        img: "kimmel-meurt.jpg",
+        img: "kimmel-meurt.webp",
         options: [
           {
             text: "Se sauver rapidement",
@@ -147,7 +147,7 @@ const chaptersObj = {
     subtitle: "Arrières à découverts",
     dialog: [
       {
-        img: "rita-danger.jpg",
+        img: "rita-danger.webp",
         text: "Un extra-terrestre s'apprête à attaquer par surprise Rita, la plus grande héroine de l'armée.",
         options: [
           {
@@ -171,7 +171,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "L'extra-terreste abat Rita. À court de munitions, vous, vous faite exploser pour l'éliminer avec vous.",
-        img: "cage-explose.jpg",
+        img: "cage-explose.webp",
         options: [
           {
             text: "Recommencer",
@@ -186,7 +186,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "Vous prenez une balle pour Rita. En guise de remerciement, elle profite de votre blessure afin de vous dérober la batterie de votre armure, vous laissant ainsi mourir sur le champs de bataille.",
-        img: "rita-vole-batterie.jpg",
+        img: "rita-vole-batterie.webp",
         options: [
           {
             text: "Recommencer",
@@ -211,7 +211,7 @@ const chaptersObj = {
       }, 
       {
         text: "Ensemble vous réussissez à vous frayer un chemin jusqu'à une maison en bordure de la plage où vous trouvez un hélicoptère",
-        img: "maison.jpg",
+        img: "maison.webp",
         options: [
           {
             text: "Suivant",
@@ -221,7 +221,7 @@ const chaptersObj = {
       },
       {
         text: "Derrière la maison vous trouver un hélicoptère",
-        img: "helico.jpg",
+        img: "helico.webp",
         options: [
           {
             text: "Suivant",
@@ -270,7 +270,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "Les extra-terrestres vous attaquent dès que vous démarrer le moteur et vous, vous écraser.",
-        img: "accident-helico.jpg",
+        img: "accident-helico.webp",
         options: [
           {
             text: "Recommencer",
@@ -295,7 +295,7 @@ const chaptersObj = {
       },
       {
         text: "Cette diversion vous permet d'éliminer l'Omega, chef de l'armée extra-terrestre et de sauver l'humanité. Félicitation!",
-        img: "omega.jpg",
+        img: "omega.webp",
       }
     ]
   }
@@ -352,13 +352,13 @@ function setScene() {
   }
   
   if (dialog.speaker) {
-    content += `<img class="icon ${dialog.speaker}" src="https://ex.smnarnold.com/ldr/${dialog.speaker}.jpg">`;
+    content += `<img class="icon ${dialog.speaker}" src="https://pub-85731fb31eb14eecb6f8ad043e5ebde4.r2.dev/live-die-repeat/${dialog.speaker}.webp">`;
   }
   
   if (dialog.video) {
-    media = `<video src="https://ex.smnarnold.com/ldr/${dialog.video}" class="media" autoplay muted loop>`;
+    media = `<video src="https://pub-85731fb31eb14eecb6f8ad043e5ebde4.r2.dev/live-die-repeat/${dialog.video}" class="media" autoplay muted loop>`;
   } else if (dialog.img) {
-    media = `<img src="https://ex.smnarnold.com/ldr/${dialog.img}" class="media">`;
+    media = `<img src="https://pub-85731fb31eb14eecb6f8ad043e5ebde4.r2.dev/live-die-repeat/${dialog.img}" class="media">`;
   }
  
   dom.dialog.innerHTML = content;
