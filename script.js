@@ -100,7 +100,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "Vous avez sauvé Kimmel. Cependant, l'aéronef s'écrase sur vous.",
-        img: "sauver-kimmel.webp",
+        img: "sauver-kimmel.jpg",
         options: [
           {
             text: "Recommencer",
@@ -147,7 +147,7 @@ const chaptersObj = {
     subtitle: "Arrières à découverts",
     dialog: [
       {
-        img: "rita-danger.webp",
+        img: "rita-danger.jpg",
         text: "Un extra-terrestre s'apprête à attaquer par surprise Rita, la plus grande héroine de l'armée.",
         options: [
           {
@@ -186,7 +186,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "Vous prenez une balle pour Rita. En guise de remerciement, elle profite de votre blessure afin de vous dérober la batterie de votre armure, vous laissant ainsi mourir sur le champs de bataille.",
-        img: "rita-vole-batterie.webp",
+        img: "rita-vole-batterie.jpg",
         options: [
           {
             text: "Recommencer",
