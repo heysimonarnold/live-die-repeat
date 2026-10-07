@@ -77,7 +77,7 @@ const chaptersObj = {
       },
       {
         text: "Un aéronef dans l'angle mort de Kimmel menace de s'effondrer sur lui.",
-        img: "kimmel-danger.webp", 
+        img: "kimmel-danger.jpg", 
         options: [
           {
             text: "Le laisser mourir",
@@ -115,7 +115,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "Kimmel meurt écrasé.",
-        img: "kimmel-meurt.webp",
+        img: "kimmel-meurt.jpg",
         options: [
           {
             text: "Se sauver rapidement",
@@ -171,7 +171,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "L'extra-terreste abat Rita. À court de munitions, vous, vous faite exploser pour l'éliminer avec vous.",
-        img: "cage-explose.webp",
+        img: "cage-explose.jpg",
         options: [
           {
             text: "Recommencer",
@@ -211,7 +211,7 @@ const chaptersObj = {
       }, 
       {
         text: "Ensemble vous réussissez à vous frayer un chemin jusqu'à une maison en bordure de la plage où vous trouvez un hélicoptère",
-        img: "maison.webp",
+        img: "maison.jpg",
         options: [
           {
             text: "Suivant",
@@ -221,7 +221,7 @@ const chaptersObj = {
       },
       {
         text: "Derrière la maison vous trouver un hélicoptère",
-        img: "helico.webp",
+        img: "helico.jpg",
         options: [
           {
             text: "Suivant",
@@ -270,7 +270,7 @@ const chaptersObj = {
     dialog: [
       {
         text: "Les extra-terrestres vous attaquent dès que vous démarrer le moteur et vous, vous écraser.",
-        img: "accident-helico.webp",
+        img: "accident-helico.jpg",
         options: [
           {
             text: "Recommencer",
@@ -295,7 +295,7 @@ const chaptersObj = {
       },
       {
         text: "Cette diversion vous permet d'éliminer l'Omega, chef de l'armée extra-terrestre et de sauver l'humanité. Félicitation!",
-        img: "omega.webp",
+        img: "omega.jpg",
       }
     ]
   }
