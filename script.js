@@ -352,7 +352,7 @@ function setScene() {
   }
   
   if (dialog.speaker) {
-    content += `<img class="icon ${dialog.speaker}" src="https://pub-85731fb31eb14eecb6f8ad043e5ebde4.r2.dev/live-die-repeat/${dialog.speaker}.webp">`;
+    content += `<img class="icon ${dialog.speaker}" src="https://pub-85731fb31eb14eecb6f8ad043e5ebde4.r2.dev/live-die-repeat/${dialog.speaker}.jpg">`;
   }
   
   if (dialog.video) {
